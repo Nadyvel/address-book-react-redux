@@ -1,0 +1,12 @@
+.search-bar {
+  display: flex;
+  border: solid white 1px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  align-items: flex-start;
+  //margin-top: 1.5%;
+  // width: 99.5%;
+  flex-grow: 1;
+  height: 50px;
+  font-size: large;
+}

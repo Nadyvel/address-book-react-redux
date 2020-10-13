@@ -1,0 +1,38 @@
+.main-container {
+  padding: 3%;
+}
+
+.rows-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: solid white 1px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 1.5%;
+}
+
+.content-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 4%;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.toolbar {
+  display: flex;
+}
+
+.settings-btn {
+  height: 50px;
+  width: 50px;
+  display: block;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: #fff;
+  // padding: 15px;
+}
